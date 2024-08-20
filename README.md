@@ -1,4 +1,4 @@
-# Kuzco一键多开容器,监控，重启
+# Kuzco根据显存容量多开容器,监控，重启
 ![image](https://github.com/user-attachments/assets/fdc46626-16ca-423e-82a7-21e5e6969d5e)
 
 ### ❌️不适用于MacOS以及AMD显卡，仅支持NVIDIA显卡
