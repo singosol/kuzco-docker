@@ -1,8 +1,8 @@
 # Kuzco一键多开容器脚本
-### 注意：此脚本不适用于MacOS以及AMD显卡，仅支持NVIDIA显卡
-### 支持Linux单GPU多开容器 
-### 支持Linux多GPU多开容器 
-### 支持WSL2单GPU多开容器 
+### ❌️不适用于MacOS以及AMD显卡，仅支持NVIDIA显卡
+### ✅️适用于Linux单GPU多开容器 
+### ✅️适用于Linux多GPU多开容器 
+### ✅️适用于WSL2单GPU多开容器 
 ### 理论上支持WSL2多GPU多开容器，但需要正确配置docker和nvidia-container-toolkit，本人没有WSL2的多卡机器，所以无法测试
 
 # 安装正确的NVIDIA驱动
