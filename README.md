@@ -1,4 +1,6 @@
-# Kuzco一键多开容器脚本
+# Kuzco一键多开容器,监控，重启
+![image](https://github.com/user-attachments/assets/fdc46626-16ca-423e-82a7-21e5e6969d5e)
+
 ### ❌️不适用于MacOS以及AMD显卡，仅支持NVIDIA显卡
 ### ✅️适用于Linux单GPU多开容器 
 ### ✅️适用于Linux多GPU多开容器 
