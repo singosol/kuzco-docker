@@ -14,7 +14,7 @@
 `https://www.docker.com/`
 ### 2.安装正确的NVIDIA驱动
 `https://www.nvidia.com/drivers/lookup/`
-### 3.对于多卡机器，确保安装并正确配置NVIDIA Container Toolkit
+### 3.确保安装并正确配置NVIDIA Container Toolkit
 `https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html`
 
 
