@@ -34,7 +34,7 @@ docker pull kuzcoxyz/worker:latest
 ```
 nano k.py
 ```
-`复制并粘贴刚刚编辑好的脚本，保存退出`
+### 复制并粘贴刚刚编辑好的脚本，保存退出
 ## 10.在终端执行以下命令运行脚本
 ```
 python3 k.py
