@@ -32,10 +32,10 @@ docker pull kuzcoxyz/worker:latest
 `startup_code = ""  ##粘贴启动代码`
 ## 9.在终端执行以下命令创建脚本
 ```
-nano k.py
+nano kzco.py
 ```
 ### 复制并粘贴刚刚编辑好的脚本，保存退出
 ## 10.在终端执行以下命令运行脚本
 ```
-python3 k.py
+python3 kzco.py
 ```
