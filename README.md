@@ -11,13 +11,27 @@
 ### ⚠️在算力租赁平台租的GPU实例本身是docker就无法再使用docker，使用命令 ps -p 1 如果输出systemd就可以使用，如果是其他（如bash）则无法再使用
 
 --------------------------------------------------------------------------------------------
-## 1.安装Docker
-`https://www.docker.com/`
-## 2.安装正确的NVIDIA驱动
-`https://www.nvidia.com/drivers/lookup/`
-## 3.确保安装并正确配置NVIDIA Container Toolkit
-`https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html`
 
+## 1.安装正确的NVIDIA驱动
+`https://www.nvidia.com/drivers/lookup/`
+## 2.安装Docker
+```
+sudo apt-get update
+sudo apt-get install docker.io
+```
+## 3.确保安装并正确配置NVIDIA Container Toolkit
+```
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
+  && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
+    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+    sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+```
+```
+sudo apt-get update
+sudo apt-get install -y nvidia-container-toolkit
+sudo nvidia-ctk runtime configure --runtime=docker
+sudo systemctl restart docker
+```
 
 ## 4.拉取Kuzco镜像
 ```
