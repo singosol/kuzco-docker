@@ -39,7 +39,7 @@ docker pull kuzcoxyz/worker:latest
 ```
 
 ## 5.[下载脚本](https://github.com/singosol/kuzco-docker/releases)
-## 6.在Kuzco创建一个Docker类型的worker（必须是Docker类型的worker，如果你使用CLI类型worker的启动代码将不起作用）
+## 6.在Kuzco官网创建一个Docker类型的Worker（必须是Docker类型的Worker，如果你使用CLI类型Worker的启动代码将不起作用）
 ## 7.复制启动代码（如图蓝色选中部分）
 ![image](https://github.com/user-attachments/assets/adbb25d5-31d9-4117-914b-7388006fda58)
 
