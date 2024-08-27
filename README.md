@@ -29,7 +29,7 @@ docker pull kuzcoxyz/worker:latest
 ## 7.复制启动代码（如图蓝色选中部分）
 ![image](https://github.com/user-attachments/assets/adbb25d5-31d9-4117-914b-7388006fda58)
 
-## 8.打开并编辑脚本，粘贴刚刚复制的启动代码到""内，保存
+## 8.使用编辑器打开脚本并找到以下代码，粘贴刚刚复制的启动代码到""内，保存
 `startup_code = ""  ##粘贴启动代码`
 ## 9.在终端执行以下命令创建脚本
 ```
@@ -39,4 +39,8 @@ nano kzco.py
 ## 10.在终端执行以下命令运行脚本
 ```
 python3 kzco.py
+```
+#### 查看容器日志
+```
+docker logs -f <容器id或名称>
 ```
