@@ -1,5 +1,5 @@
 # Kuzco根据显存容量多开实例/容器，监控，重启脚本
-### ❌️不适用于MacOS，仅支持NVIDIA\AMD显卡
+### ❌️不适用于MacOS，仅支持NVIDIA/AMD显卡
 ### ✅️适用于Linux单GPU多开容器 
 ### ✅️适用于Linux多GPU多开容器 
 ### ✅️适用于WSL2单GPU多开容器 
@@ -10,14 +10,18 @@
 --------------------------------------------------------------------------------------------
 
 
-## 1.安装正确的NVIDIA驱动
+## 1.安装NVIDIA/AMD驱动
+nvidia:
 `https://www.nvidia.com/drivers/lookup/`
+
+amd:
+`https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html`
 ## 2.安装Docker
 ```
 sudo apt-get update
 sudo apt-get install docker.io
 ```
-## 3.安装并配置NVIDIA Container Toolkit
+## 3.安装并配置NVIDIA Container Toolkit(ADM显卡或略此步骤)
 ```
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
   && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
