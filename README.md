@@ -40,7 +40,7 @@ docker pull kuzcoxyz/worker:latest
 ![image](https://github.com/user-attachments/assets/adbb25d5-31d9-4117-914b-7388006fda58)
 ## 7.[下载脚本](https://github.com/singosol/kuzco-docker/releases)
 ```
-curl -LO https://github.com/singosol/kuzco-docker/releases/download/v0.101/kzco.py
+curl -LO https://github.com/singosol/kuzco-docker/releases/download/v0.11/kzco.py
 ```
 ## 8.使用nano打开并编辑脚本（也可使用vi、vim等编辑器）
 ```
