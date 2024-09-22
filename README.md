@@ -1,5 +1,5 @@
 # Kuzco根据显存容量多开实例/容器，监控，重启脚本
-### ❌️不适用于MacOS，仅支持NVIDIA/AMD显卡
+### ❌️不适用于Mac
 ### ✅️适用于Linux单GPU多开容器 
 ### ✅️适用于Linux多GPU多开容器 
 ### ✅️适用于WSL2单GPU多开容器 
