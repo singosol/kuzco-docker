@@ -11,10 +11,10 @@
 
 
 ## 1.安装NVIDIA/AMD驱动
-nvidia:
+NVIDIA:
 `https://www.nvidia.com/drivers/lookup/`
 
-amd:
+AMD:
 `https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html`
 ## 2.安装Docker
 ```
