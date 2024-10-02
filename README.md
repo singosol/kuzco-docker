@@ -7,7 +7,6 @@
 ### ✅️适用于WSL2单GPU多开容器 
 #### ❔理论上支持WSL2多GPU多开容器，但需要正确配置docker和nvidia-container-toolkit，确保Docker容器能单独使用其中一块GPU，本人没有WSL2的多卡机器，所以无法测试
 ### ⚠️在某些算力租赁平台租的GPU实例本身是docker就无法再使用docker
-![image](https://github.com/user-attachments/assets/fdc46626-16ca-423e-82a7-21e5e6969d5e)
 
 --------------------------------------------------------------------------------------------
 
@@ -18,6 +17,14 @@ NVIDIA:
 
 AMD:
 `https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html`
+
+验证驱动是否安装成功:
+```
+nvidia-smi
+```
+```
+amd-smi
+```
 ## 2.安装Docker
 ```
 sudo apt-get update
