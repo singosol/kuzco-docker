@@ -1,6 +1,6 @@
 # Kuzco根据显存容量多开实例/容器，监控，重启脚本
 
-##每个实例需要大概6G显存，因此不能多开超过显存容量
+## 每个实例需要大概6G显存，因此不能多开超过显存容量(12G显存两个实例，24G显存4个实例)
 ### ❌️不适用于Mac
 ### ✅️适用于Linux单GPU多开容器 
 ### ✅️适用于Linux多GPU多开容器 
@@ -15,13 +15,16 @@
 NVIDIA:
 `https://www.nvidia.com/drivers/lookup/`
 
-AMD:
-`https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html`
-
 验证驱动是否安装成功:
 ```
 nvidia-smi
 ```
+
+AMD:
+`https://rocm.docs.amd.com/projects/install-on-linux/en/latest/install/quick-start.html`
+
+验证驱动是否安装成功:
+
 ```
 amd-smi
 ```
